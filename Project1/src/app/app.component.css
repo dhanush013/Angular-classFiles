@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    background: yellowgreen;
+    width: 50%;
+    margin-left: 200px;
+}
+
+.appClass{
+    background: tomato;
+    color: yellow;
+    /*width: 40%;
+    margin-left: 400px;*/
+}
