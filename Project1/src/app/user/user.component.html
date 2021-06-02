@@ -1,0 +1,20 @@
+<p>user works!</p>
+<div class="container">
+    <form>
+        <label>Enter Id</label>
+        <input [(ngModel)]="user.userId" name="userId" ><br>
+        <label>Enter Name</label>
+        <input [(ngModel)]="user.userName" name="userName"><br>
+        <label>Enter Salary</label>
+        <input [(ngModel)]="user.userSalary" name="userSalary"><br>
+
+    </form>
+
+    <button type="button" class="btn button-primary" (click)="userInfo()" >Check It !!!</button><br>
+
+    Id is {{user.userId}}<br>
+    Name is {{user.userName}}<br>
+    Salary is {{user.userSalary}}<br>
+</div>
+
+
